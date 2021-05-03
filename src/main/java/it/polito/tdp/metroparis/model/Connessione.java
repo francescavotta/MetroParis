@@ -46,4 +46,10 @@ public class Connessione {
 		this.stazA = stazA;
 	}
 
+	@Override
+	public String toString() {
+		return "Connessione [idConnessione=" + idConnessione + ", linea=" + linea + ", stazP=" + stazP + ", stazA="
+				+ stazA + "]";
+	}
+
 }
