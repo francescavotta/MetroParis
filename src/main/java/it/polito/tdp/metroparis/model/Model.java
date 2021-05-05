@@ -167,7 +167,7 @@ public class Model {
 		result.add(arrivo);
 		Fermata f = arrivo;
 		while(predecessore.get(f)!=null) {
-			f = predecessore.get(f);
+			f = predecessore.get(f); //getParent(f);
 			result.add(0,f);	
 		}
 		//lista di ordine inverso.. se modifico l'add sono a posto
